@@ -1,4 +1,5 @@
 #include "SearchEngine.h"
+#include "Exceptii.h"
 #include <filesystem>
 #include <fstream>
 #include <sstream>
@@ -18,7 +19,9 @@ void SearchEngine::notifica(const std::string& query, int rezultateGasite) {
 
 void SearchEngine::incarcaDocumenteDinDirector(const std::string& caleDirector) {
     if (!fs::exists(caleDirector) || !fs::is_directory(caleDirector)) {
-        std::cerr << "[Eroare] Directorul nu exista: " << caleDirector << "\n";
+        if (!fs::exists(caleDirector) || !fs::is_directory(caleDirector)) {
+            throw FolderNotFoundException("Directorul '" + caleDirector + "' nu a fost gasit!");
+        }
         return;
     }
 
@@ -40,6 +43,11 @@ std::set<std::string> SearchEngine::cautaComplex(const std::string& interogare, 
     std::stringstream ss(interogare);
     std::string cuvant;
     std::vector<std::set<std::string>> seturiRezultate;
+
+
+    if (interogare.empty() || interogare.find_first_not_of(' ') == std::string::npos) {
+        throw EmptyQueryException("Cautarea nu poate fi goala!");
+    }
 
     while (ss >> cuvant) {
         seturiRezultate.push_back(index.cautaCuvant(cuvant));
