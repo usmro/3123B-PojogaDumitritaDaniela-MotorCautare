@@ -1,0 +1,1 @@
+Proiectul la POO este un motor de cautare. Lucram in Linux si Visual Studio.
