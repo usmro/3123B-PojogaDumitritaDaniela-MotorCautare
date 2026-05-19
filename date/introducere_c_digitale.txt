@@ -1,0 +1,262 @@
+﻿7
+1 CAPITOLUL 1
+INTRODUCERE ÎN CONCEPTELE DIGITALE
+Evoluţia electronicii digitale este strâns legată de progresele înregistrate atât
+de evoluţia dispozitivelor şi circuitelor electronice în general cât şi de evoluţia
+calculatoarelor. Cercetările efectuate pentru realizarea de calculatoare cât mai
+performante au impulsionat aprofundarea unor noi aspecte în cadrul acestei ramuri a
+electronicii.
+În evoluţia electronicii şi mijloacelor de tehnică de calcul se pot evidenţia mai multe
+etape.
+− 1642. B. Pascal realizează o maşină de adunat.
+− 1694. von Leibniz construieşte o maşină de adunat şi înmulţit.
+− 1823. Ch.Babbage proiectează primul calculator cu execuţie automata a
+programului.
+− 1904 John Fleming inventează tubul electronic.
+− 1937 – 1945, se construiesc maşini electromecanice de calculat, bazate pe
+relee electromagnetice (Mark I), cu program cablat. Releele electromagnetice şi
+contactele lor joacă rolul elementelor bistabile. Cu ajutorul lor se pot codifica
+cifrele sistemului de numeraţie binar. Construcţia calculatorului Mark I a început
+in 1939 şi s-a terminat la 7 august 1944, dată ce marchează începutul erei
+calculatoarelor.
+− 1943: la Universitatea din Pennsylvania a început construcţia primului calculator
+bazat pe tuburi electronice ENIAC (Electronic Numerical Integrator And
+Computer). Calculatorul era realizat cu 18 000 tuburi electronice, 1500 relee,
+cântărea 30 tone si consuma 140 kW.
+− 1945: a început construcţia unui alt calculator electronic EDVAC (Electronic
+Discrete Variable Automatic Computer) pe baza arhitecturii descrise de J. von
+Neumann. Marea majoritate a calculatoarelor construite până în prezent se
+bazează pe aceste principii, purtând numele de calculatoare de tip von
+Neumann.
+− Inventarea tranzistorului, în anul 1947, de către John Bardeen, Walter Brattain
+şi William Shockley în 1948 la Bell Labs.
+− Pe baza proiectului EDVAC, Eckert si Mauchly au produs, în 1951, în cadrul
+unei companii proprii, primul calculator comercial UNIVAC 1.
+− Istoria circuitelor integrate începe în anii ‘60 cu circuitele integrate pe scară mică
+SSI (small-scale integration, având până la10 porţi logice pe chip), continuă în
+anii ’70 cu circuitele integrate pe scară medie MSI (medium-scale integration
+MSI, având între 10 şi 100 porţi pe chip), apoi în anii ’80 cu circuitele integrate
+pe scară largă LSI (large-scale integration, cu 100 până la 10.000 porţi
+echivalente pe chip), urmate în anii ’90 de circuitele pe scară foarte largă VLSI
+(very large-scale integration, având 10.000–1.000.000 porţi pe chip, 90’s), şi de
+circuitele integrate pe scară ultra largă ULSI (ultralarge scale integration, pentru
+mai mult de un milion de porţi logice echivalente pe chip).
+− Primul microprocesor, pe 4 biţi, apărut în anul 1971, avea circa 1700 de
+tranzistoare, iar în anul 1990 microprocesoarele pe 32 de biţi aveau deja peste
+150.000 de tranzistoare. Procesoarele moderne utilizează peste 1.000.000 de
+tranzistoare. Toate aceste exemple demonstrează viabilitatea legii lui Moore,
+Circuite digitale
+8
+care apreciază ca numărul de tranzistoare plasate pe o singura pastilă se
+dublează la circa 18 luni.
+− Perfecţionarea proceselor tehnologice în domeniul circuitelor integrate a permis,
+de asemenea, reducerea dimensiunilor dispozitivelor, ceea ce se poate
+exemplifica prin reducerea lungimii canalului tranzistorului elementar de la 5 µm
+în 1985, la 350 nm în 1997, la 180 nm în 2000, la 130 nm în 2002, la 90nm în
+2003, la 65 nm în 2006-2007, la 45 nm în 2007-2008 şi 32 nm în 2009-2010.
+ Circuitele electronice pot fi clasificate în circuite digitale şi circuite analogice.
+Electronica digitală lucrează cu mărimi discrete iar electronica analogică cu mărimi
+continue.
+Majoritatea mărimilor din natură sunt mărimi analogice, aceste mărimi
+reprezintă semnalele de intrare şi de ieşire care trebuiesc monitorizate, prelucrate
+sau comandate de un sistem. Putem afirma că lumea reală este în principal
+analogică. De exemplu temperatura aerului se modifică într-un domeniu continuu de
+valori. Temperatura într-o zi nu se modifică instantaneu de la 25° C la 26° C ci ia o
+infinitate de valori între cele două. Dacă reprezentăm temperatura într-o zi de vară
+obişnuită vom obţine o curbă continuă cum se prezintă în figura 1.1.
+10
+15
+20
+25
+30
+35
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+Temperatura C
+Figura 1.1. Graficul unei mărimi analogice (temperatura funcţie de timp)
+ În loc să reprezentăm temperatura în mod continuu să presupunem că
+înregistrăm temperatura odată pe oră. Rezultă o nouă curbă cu valori eşantionate
+care reprezintă temperatura în momente discrete de timp (la fiecare oră) într-un
+interval de 24 ore după cum se poate observa în figura 1.2
+10
+15
+20
+25
+30
+35
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+Temperatura C
+Ora
+Figura 1.2. Reprezentarea valorilor eşantionate a unei mărimi analogice.
+Capitolul 1. Introducere în conceptele digitale
+9
+ Prin procedeul prezentat mai sus s-a convertit o mărime analogică într-o formă
+care poate fi digitizată prin reprezentarea fiecărui eşantion într-un cod digital. Este
+important de reţinut că figura 1.2 nu reprezintă forma digitală a mărimii analogice. Un
+alt exemplu menit să prezinte diferenţa dintre o mărime analogică şi cea digitală este
+cea a unui ceas digital care reprezintă timpul sub formă unor cifre zecimale care
+reprezintă ora minutele (şi uneori secundele). Aşa cum ştim timpul se schimbă
+continuu dar indicaţia ceasului se schimbă numai odată pe minut (sau secundă). Cu
+alte cuvinte reprezentarea digitală a timpului se face în paşi discreţi în comparaţie cu
+timpul indicat de un ceas analogic care se modifică continuu.
+1.1 Avantajele tehnicii digitale
+Avantajele tehnicilor digitale sunt atât de mari încât în ultimii ani s-a reliefat o
+tendinţă netă de a înlocui în echipamente realizate cu dispozitive analogice cu
+circuite digitale. Sintetizând, avantajele esenţiale sunt:
+1. Datele digitale pot fi procesate şi transmise mai uşor şi mai exact.
+2. Circuitele digitale sunt mai uşor de proiectat. Valoarea exactă a tensiunilor şi
+curenţilor nu este importantă ci numai domeniul de valori în care se situează
+(HIGH = 1 sau LOW = 0).
+3. Imunitatea la perturbaţii a circuitelor digitale este considerabil mai mare decât
+cea a circuitelor analogice. Condiţia este ca zgomotul să se înscrie între limite
+care ne permit să distingem nivelul logic 1 de nivelul logic 0.
+4. Stocarea informaţiei este mai uşoară. De exemplu muzica sub formă digitală
+poate fi memorată mai compact şi reprodusă cu acurateţe mai mare decât sub
+formă analogică.
+5. Siguranţă mare în funcţionare. Circuitele digitale funcţionează corect chiar în
+condiţiile în care parametrii electrici ai elementelor componente variază
+considerabil.
+6. Exactitate. În sistemele numerice lipsesc punctele de ajustare sau circuitele de
+compensare.
+7. Afişare digitală.
+8. Operaţiile pot fi programate. Sistemele analogice pot fi şi ele programate dar
+varietatea şi complexitatea operaţiilor disponibile este limitată drastic.
+9. Multe circuite digitale se pot fabrica sub formă integrată.
+Există cu adevărat un singur dezavantaj al utilizării tehnicii digitale şi anume:
+Lumea reală este preponderent analogică.
+Pentru a putea beneficia de avantajele tehnicii digitale atunci când lucrăm cu
+semnale de intrare şi de ieşire analogice trebuie să parcurgem trei paşi:
+1. Convertirea semnalelor din lumea reală analogice în formă digitală Această
+operaţie se numeşte conversie analog numerică (sau analog digitală).
+2. Prelucrarea datelor sub formă digitală
+3. Convertirea semnalului de ieşire spre lumea reală din formă digitală în formă
+analogică. Acest procedeu se numeşte conversie numeric (digital) analogică
+Circuite digitale
+10
+Figura 1.3 prezintă un sistem de control al temperaturii care necesită conversie
+analog digitală pentru a putea folosi tehnicile de procesare digitală.
+(digital) Convertor Dispozitiv
+Procesare digitala Convertor (digital)
+(analogic) (analogic)
+(analogic)
+Temperatura
+(analogic)
+digital analogic
+analogic digital
+Dispozitiv de masura
+de comanda
+controlata
+Temperatura
+Figura 1.3. Sistem de control digital al temperaturii.
+1.2 Cifre binare, nivele logice şi forme de undă digitale
+Circuitele digitale au doar două stări posibile. Aceste stări sunt reprezentate
+prin două nivele de tensiune diferite: un nivel ridicat (HIGH) sau 1 logic şi un nivel
+coborât (LOW) sau 0 logic. Sistemul de numeraţie cu două stări este numit sistem
+binar şi acest sistem operează cu două cifre 0 şi 1, numite biţi care reprezintă o
+contracţie a expresiei binary digit. Un grup de biţi se numeşte cod şi este utilizat
+pentru a reprezenta numere, litere, simboluri, instrucţiuni, etc.
+Tensiunile folosite pentru a reprezenta un 1 logic sau un 0 logic se numesc
+nivele logice.
+Formele de undă digitale constau în nivele logice care se schimbă între
+nivelele logice 0 şi 1, figura 1.4.a prezintă un impuls pozitiv generat când tensiunea
+trece din starea 0 în starea 1 şi apoi înapoi în starea 0. Figura 1.4.b prezintă un
+impuls generat când tensiunea trece din starea lui normală 1 în starea 0 şi apoi
+înapoi în 1. O formă de undă digitală este compusă dintr-o serie astfel de impulsuri.
+HIGH HIGH
+
+Front
+anterior sau
+crescător
+
+Front posterior
+sau descrescător
+Front
+anterior sau
+descrescător
+
+Front posterior
+sau crescător
+LOW LOW
+t0 t1 t0 t1
+a) Impuls pozitiv b) Impuls negativ
+Figura 1.4. Impulsuri ideale.
+Aşa cum se vede în figura 1.4 un impuls are două fronturi: un front anterior
+care apare la momentul t0 şi un front posterior la momentul t1, pentru un impuls
+pozitiv frontul anterior este un front crescător, şi frontul posterior un front
+Capitolul 1. Introducere în conceptele digitale
+11
+descrescător. Impulsurile din figura 1.4 sunt ideale deoarece fronturile crescătoare şi
+descrescătoare se modifică instantaneu. În practică aceste tranziţii nu se întâmplă
+instantaneu. Figura 1.5 prezintă un impuls real (ne ideal). Timpul necesar pentru ca
+impulsul să treacă din starea 0 în starea 1 se numeşte timp de creştere (tr – rise
+time), şi timpul necesar pentru tranziţia din 1 în 0 este numit timp de coborâre (tf – fall
+time). În practică se măsoară timpul de ridicare de la 10% din amplitudine până la
+90% din amplitudine şi timpul de coborâre de la 90% la 10% din amplitudinea
+impulsului aşa cum se arată din figura 1.5. Lăţimea impulsului (tw – pulse width) este
+o măsură a duratei impulsului şi este definit ca intervalul dintre punctele aflate la 50%
+pe frontul crescător şi descrescător, aşa cum se vede în figura 1.5.
+Amplitudine
+90%
+50%
+10%
+t
+r
+Timp de ridicare
+t
+f
+Neliniarităţi
+Timp de coborâre
+tw
+Figura 1.5. Caracteristicile unui impuls real.
+Majoritatea formele de undă din sistemele digitale sunt compuse dintr-o serie
+de impulsuri uneori numite trenuri de impulsuri, şi ele pot fi clasificate în periodice şi
+ne periodice (figura 1.6). Un impuls periodic este o formă de undă care se repetă la
+intervale fixe numite perioadă (T). Frecvenţa (f) este rata cu care aceasta se repetă
+şi este măsurată în hertz (Hz).
+
+ T1 T2 T3 T4 T5
+Perioada T1= T2= T3= T4= T5
+a) Semnal digital periodic (Impulsuri dreptunghiulare)
+
+b) Semnal digital neperiodic
+Figura 1.6. Exemple de semnale digitale.
+Frecvenţa unui impuls digital este inversul perioadei. Relaţia dintre frecvenţa şi
+perioadă este :
+Circuite digitale
+12
+T
+f
+1
+= respectiv
+f
+T
+1
+= .
+ O caracteristică importantă a unui semnal digital periodic este factorul de
+umplere definit ca raportul dintre lăţimea impulsului (tW) şi perioada (T) şi care poate
+fi exprimată procentual:
+Factor de umplere
+T
+tW = 100%.
+De exemplu pentru semnalul digital prezentat în figura 1.7, perioada T este egală cu
+10 ms. Frecvenţa acestui semnal este:
+Hz
+T ms
+f 100
+10
+1 1
+= = = .
+Factorul de umplere este:
+Factor de umplere
+T
+tW = 100%=
+ms
+ms
+10
+1
+= 100%=10%.
+ T
+ tW
+
+ 0 1 10 11 t (ms)
+Figura 1.7. Definirea perioadei şi a factorului de umplere pentru un semnal digital
+periodic 
