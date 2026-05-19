@@ -45,14 +45,9 @@ int main() {
         std::cout << RED << "[EROARE CRITICĂ] " << e.what() << "\n" << RESET;
         return 1;
     }
-    
-
-
-
 
     std::string interogare;
     std::string mod;
-
 
 
     while (true) {
