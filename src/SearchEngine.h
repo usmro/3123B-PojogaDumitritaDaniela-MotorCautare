@@ -1,4 +1,4 @@
-#ifndef SEARCH_ENGINE_H
+﻿#ifndef SEARCH_ENGINE_H
 #define SEARCH_ENGINE_H
 
 #include "Index.h"
@@ -15,6 +15,14 @@ private:
     void notifica(const std::string& query, int rezultateGasite);
 
 public:
+
+    // Descarcă un fișier text de pe web și îl indexează în baza de date
+    void incarcaDocumentDePeWeb(const std::string& url, const std::string& numeFisierSalvare);
+
+    // Getter pentru a afișa numărul de cuvinte unice în dashboard
+    int getNumarCuvinteUnice() const { return index.getNumarCuvinteUnice(); }
+    int getNumarTotalDocumente() const { return index.getNumarTotalDocumente(); }
+
     void salveazaIndex(const std::string& fisier) { index.salveazaBazaDate(fisier); }
     void incarcaIndex(const std::string& fisier) { index.incarcaBazaDate(fisier); }
     void adaugaObservator(std::shared_ptr<Observer> obs);

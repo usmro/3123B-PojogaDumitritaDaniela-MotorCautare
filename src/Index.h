@@ -21,6 +21,10 @@ private:
     void incarcaStopWords();
 
 public:
+
+    int getNumarCuvinteUnice() const { return indexInversat.size(); }
+    int getNumarTotalDocumente() const { return numarTotalDocumente; }
+
     // Salvează tot indexul din memorie într-un fișier pe disc (Baza de Date)
     void salveazaBazaDate(const std::string& caleFisier) const;
 

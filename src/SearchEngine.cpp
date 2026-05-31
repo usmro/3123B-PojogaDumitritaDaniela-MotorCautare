@@ -1,4 +1,4 @@
-#include "SearchEngine.h"
+﻿#include "SearchEngine.h"
 #include "Exceptii.h"
 #include <filesystem>
 #include <fstream>
@@ -116,4 +116,51 @@ std::vector<std::pair<std::string, double>> SearchEngine::cautaComplex(const std
 
     notifica(interogare, rezultateOrdonate.size());
     return rezultateOrdonate;
+}
+
+void SearchEngine::incarcaDocumentDePeWeb(const std::string& url, const std::string& numeFisierSalvare) {
+    std::string caleDestinatie = "date/" + numeFisierSalvare;
+
+    // Comandă Linux standard: wget descarcă URL-ul și îl salvează în folderul date
+    std::string comanda = "wget -q -O \"" + caleDestinatie + "\" \"" + url + "\"";
+
+    int rezultat = std::system(comanda.c_str());
+    if (rezultat != 0) {
+        throw std::runtime_error("Descărcarea documentului de la URL-ul specificat a eșuat!");
+    }
+
+    // Citim fișierul descărcat și îl adăugăm în index
+    std::ifstream f(caleDestinatie);
+    if (f.is_open()) {
+        std::stringstream buffer;
+        buffer << f.rdbuf();
+        Document doc(caleDestinatie, buffer.str());
+        f.close();
+
+        std::lock_guard<std::mutex> lock(this->indexMutex);
+        this->index.adaugaDocument(doc);
+    }
+    else {
+        throw std::runtime_error("Nu s-a putut deschide fișierul descărcat pentru indexare.");
+    }
+}
+
+// Setați o listă de stop-words frecvente în limba română și engleză
+const std::set<std::string> STOP_WORDS = {
+    "si", "in", "de", "la", "un", "o", "cu", "pe", "ca", "este", "sunt", "pentru", "care", "au", "fost",
+    "the", "a", "an", "and", "in", "on", "at", "to", "for", "of", "with", "is", "are", "was", "were"
+};
+
+// În funcția unde procesezi cuvintele din document înainte de indexare:
+std::string curataSiFiltreazaCuvant(std::string cuvant) {
+    // 1. Transformare în litere mici și eliminare punctuație (asta o aveai deja)
+    cuvant.erase(std::remove_if(cuvant.begin(), cuvant.end(), ::ispunct), cuvant.end());
+    std::transform(cuvant.begin(), cuvant.end(), cuvant.begin(), ::tolower);
+
+    // 2. VERIFICARE STOP-WORDS: Dacă este în listă, îl ignorăm (returnăm text gol)
+    if (STOP_WORDS.count(cuvant) > 0) {
+        return "";
+    }
+
+    return cuvant;
 }
