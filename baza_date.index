@@ -1,9 +1,16 @@
-3
-3
+10
+10
+date/Amplificatoare_Operationale_Curs.txt 26
 date/Circuit_Integrat_555_Timer.txt 81
+date/Circuite_Logice_Digitale.txt 29
+date/Curent_Alternativ_Teorie.txt 26
+date/Filtre_Pasive_Frecventa.txt 26
 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt 81
+date/Microcontrolere_si_Registre_ARM.txt 26
 date/Puntea_Wheatstone_Masurari.txt 90
-170
+date/Sisteme_de_Automatizari_Relee.txt 24
+date/Tranzistoare_Bipulare_BJT.txt 26
+280
 15v 1 date/Circuit_Integrat_555_Timer.txt:1
 555 1 date/Circuit_Integrat_555_Timer.txt:2
 5v 1 date/Circuit_Integrat_555_Timer.txt:1
@@ -13,164 +20,274 @@ adiacente 1 date/Puntea_Wheatstone_Masurari.txt:1
 alarma 1 date/Circuit_Integrat_555_Timer.txt:1
 ale 1 date/Puntea_Wheatstone_Masurari.txt:1
 alimentare 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
-amplificator 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+alternativ 1 date/Curent_Alternativ_Teorie.txt:2
+ambele 1 date/Circuite_Logice_Digitale.txt:1
+amplificare 1 date/Amplificatoare_Operationale_Curs.txt:1
+amplificatoare 1 date/Tranzistoare_Bipulare_BJT.txt:1
+amplificator 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+amplificatorul 1 date/Amplificatoare_Operationale_Curs.txt:1
+analiza 1 date/Filtre_Pasive_Frecventa.txt:1
 analogdigitale 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 aprinderii 1 date/Circuit_Integrat_555_Timer.txt:1
-are 1 date/Puntea_Wheatstone_Masurari.txt:1
+are 4 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuite_Logice_Digitale.txt:1 date/Puntea_Wheatstone_Masurari.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+arhitectura 1 date/Microcontrolere_si_Registre_ARM.txt:1
+aritmetice 1 date/Microcontrolere_si_Registre_ARM.txt:1
+arm 1 date/Microcontrolere_si_Registre_ARM.txt:1
 asigura 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 astabil 1 date/Circuit_Integrat_555_Timer.txt:1
+atenuarea 1 date/Filtre_Pasive_Frecventa.txt:1
+atenueaza 1 date/Filtre_Pasive_Frecventa.txt:1
+atrage 1 date/Sisteme_de_Automatizari_Relee.txt:1
+automatizari 1 date/Sisteme_de_Automatizari_Relee.txt:1
 baleiaj 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 basculant 1 date/Circuit_Integrat_555_Timer.txt:1
+baza 2 date/Curent_Alternativ_Teorie.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+binare 1 date/Circuite_Logice_Digitale.txt:1
+bipolar 1 date/Tranzistoare_Bipulare_BJT.txt:1
+bjt 1 date/Tranzistoare_Bipulare_BJT.txt:2
+bobina 1 date/Sisteme_de_Automatizari_Relee.txt:1
+bobine 1 date/Filtre_Pasive_Frecventa.txt:1
 brate 1 date/Puntea_Wheatstone_Masurari.txt:1
 bratele 1 date/Puntea_Wheatstone_Masurari.txt:1
+camp 1 date/Sisteme_de_Automatizari_Relee.txt:1
 cand 1 date/Puntea_Wheatstone_Masurari.txt:1
-care 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
+capacitiva 1 date/Curent_Alternativ_Teorie.txt:1
+care 3 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
+castig 1 date/Amplificatoare_Operationale_Curs.txt:1
 ceas 1 date/Circuit_Integrat_555_Timer.txt:1
 circuit 3 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Puntea_Wheatstone_Masurari.txt:3
-circuite 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+circuite 5 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1 date/Filtre_Pasive_Frecventa.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+circuitele 2 date/Circuite_Logice_Digitale.txt:1 date/Curent_Alternativ_Teorie.txt:1
+circuitelor 1 date/Sisteme_de_Automatizari_Relee.txt:1
 circuitul 1 date/Circuit_Integrat_555_Timer.txt:2
+colector 1 date/Tranzistoare_Bipulare_BJT.txt:1
+comanda 1 date/Sisteme_de_Automatizari_Relee.txt:1
+comparare 1 date/Amplificatoare_Operationale_Curs.txt:1
 comparatoare 1 date/Circuit_Integrat_555_Timer.txt:1
-componenta 1 date/Circuit_Integrat_555_Timer.txt:1
-comutatie 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+componenta 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1
+comutarea 1 date/Sisteme_de_Automatizari_Relee.txt:1
+comutatie 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
 conceput 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+condensatoare 1 date/Filtre_Pasive_Frecventa.txt:1
 condensator 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 condensatorului 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-conectate 1 date/Puntea_Wheatstone_Masurari.txt:1
+conectate 2 date/Circuite_Logice_Digitale.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
 constant 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 construit 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-contine 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+contact 1 date/Sisteme_de_Automatizari_Relee.txt:1
+contine 3 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
 continuu 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-controlat 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+controlat 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
 controlata 1 date/Circuit_Integrat_555_Timer.txt:1
-controlul 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+controlul 3 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Microcontrolere_si_Registre_ARM.txt:1
 convertoare 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 creste 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 cresterea 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-curent 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-curentul 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
+curent 3 date/Curent_Alternativ_Teorie.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+curentul 3 date/Curent_Alternativ_Teorie.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
+daca 1 date/Circuite_Logice_Digitale.txt:1
+date 1 date/Microcontrolere_si_Registre_ARM.txt:1
+defazajul 1 date/Filtre_Pasive_Frecventa.txt:1
 descarcarea 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+determina 1 date/Filtre_Pasive_Frecventa.txt:1
 determinate 1 date/Circuit_Integrat_555_Timer.txt:1
 devine 1 date/Puntea_Wheatstone_Masurari.txt:1
 dezechilibru 1 date/Puntea_Wheatstone_Masurari.txt:1
-din 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
+digitale 1 date/Circuite_Logice_Digitale.txt:1
+din 3 date/Circuit_Integrat_555_Timer.txt:1 date/Filtre_Pasive_Frecventa.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
 dintel 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+directia 1 date/Curent_Alternativ_Teorie.txt:1
+dispozitiv 1 date/Tranzistoare_Bipulare_BJT.txt:1
 divizor 1 date/Circuit_Integrat_555_Timer.txt:1
-doua 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
+doar 1 date/Circuite_Logice_Digitale.txt:1
+doua 3 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
 dreptunghiular 1 date/Circuit_Integrat_555_Timer.txt:1
 durata 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 echilibrarea 1 date/Puntea_Wheatstone_Masurari.txt:1
 echilibrata 1 date/Puntea_Wheatstone_Masurari.txt:1
+efectiva 1 date/Curent_Alternativ_Teorie.txt:1
 egal 1 date/Puntea_Wheatstone_Masurari.txt:1
 electric 1 date/Puntea_Wheatstone_Masurari.txt:1
 electrica 1 date/Puntea_Wheatstone_Masurari.txt:2
 electrice 1 date/Puntea_Wheatstone_Masurari.txt:2
+electromagnetice 1 date/Sisteme_de_Automatizari_Relee.txt:1
 electronic 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-electronica 1 date/Circuit_Integrat_555_Timer.txt:1
+electronica 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1
+electronice 1 date/Tranzistoare_Bipulare_BJT.txt:1
 elimina 1 date/Puntea_Wheatstone_Masurari.txt:1
+embedded 1 date/Microcontrolere_si_Registre_ARM.txt:1
+emitor 1 date/Tranzistoare_Bipulare_BJT.txt:1
 erorile 1 date/Puntea_Wheatstone_Masurari.txt:1
-este 3 date/Circuit_Integrat_555_Timer.txt:2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Puntea_Wheatstone_Masurari.txt:5
+este 5 date/Amplificatoare_Operationale_Curs.txt:2 date/Circuit_Integrat_555_Timer.txt:2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Puntea_Wheatstone_Masurari.txt:5 date/Tranzistoare_Bipulare_BJT.txt:1
+executia 1 date/Microcontrolere_si_Registre_ARM.txt:1
 extern 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 externa 1 date/Circuit_Integrat_555_Timer.txt:1
 face 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 factorul 1 date/Circuit_Integrat_555_Timer.txt:1
 fierastrau 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+filtrele 1 date/Filtre_Pasive_Frecventa.txt:1
+filtru 1 date/Filtre_Pasive_Frecventa.txt:1
 flipflop 1 date/Circuit_Integrat_555_Timer.txt:1
-foarte 1 date/Puntea_Wheatstone_Masurari.txt:1
+foarte 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
 forma 1 date/Puntea_Wheatstone_Masurari.txt:1
 formand 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 formata 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
-frecventa 1 date/Circuit_Integrat_555_Timer.txt:2
+formate 1 date/Filtre_Pasive_Frecventa.txt:1
+frecventa 3 date/Circuit_Integrat_555_Timer.txt:2 date/Curent_Alternativ_Teorie.txt:1 date/Filtre_Pasive_Frecventa.txt:2
+frecventele 1 date/Filtre_Pasive_Frecventa.txt:1
 functiona 1 date/Circuit_Integrat_555_Timer.txt:1
+functioneaza 1 date/Tranzistoare_Bipulare_BJT.txt:1
 fundamentala 1 date/Circuit_Integrat_555_Timer.txt:1
+fundamentale 1 date/Circuite_Logice_Digitale.txt:1
 galvanometru 1 date/Puntea_Wheatstone_Masurari.txt:2
 genera 2 date/Circuit_Integrat_555_Timer.txt:3 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 generatoare 1 date/Circuit_Integrat_555_Timer.txt:1
 generatorul 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+genereaza 1 date/Sisteme_de_Automatizari_Relee.txt:1
 gtlv 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2
 iar 1 date/Puntea_Wheatstone_Masurari.txt:1
 iesire 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+iesirea 1 date/Circuite_Logice_Digitale.txt:1
+impedanta 1 date/Curent_Alternativ_Teorie.txt:1
+implica 1 date/Microcontrolere_si_Registre_ARM.txt:1
 impuls 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 impulsuri 1 date/Circuit_Integrat_555_Timer.txt:2
 impulsurilor 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-inalta 1 date/Puntea_Wheatstone_Masurari.txt:1
+inalta 2 date/Circuite_Logice_Digitale.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
+inalte 1 date/Filtre_Pasive_Frecventa.txt:1
 incarcare 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 indica 1 date/Puntea_Wheatstone_Masurari.txt:1
+inductiva 1 date/Curent_Alternativ_Teorie.txt:1
 inginerie 1 date/Puntea_Wheatstone_Masurari.txt:1
+instructiunilor 1 date/Microcontrolere_si_Registre_ARM.txt:1
+integrare 1 date/Amplificatoare_Operationale_Curs.txt:1
 integrat 1 date/Circuit_Integrat_555_Timer.txt:2
 integrator 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 intens 1 date/Puntea_Wheatstone_Masurari.txt:1
-interne 1 date/Circuit_Integrat_555_Timer.txt:1
+interne 2 date/Circuit_Integrat_555_Timer.txt:1 date/Microcontrolere_si_Registre_ARM.txt:1
+intrare 1 date/Amplificatoare_Operationale_Curs.txt:2
+intrari 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuite_Logice_Digitale.txt:1
 intre 1 date/Circuit_Integrat_555_Timer.txt:1
+intrerupatoare 1 date/Tranzistoare_Bipulare_BJT.txt:1
+introdus 1 date/Filtre_Pasive_Frecventa.txt:1
 introduse 1 date/Puntea_Wheatstone_Masurari.txt:1
+inversoare 1 date/Amplificatoare_Operationale_Curs.txt:1
+isi 1 date/Curent_Alternativ_Teorie.txt:1
+joasa 1 date/Filtre_Pasive_Frecventa.txt:1
 jurul 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 larga 1 date/Circuit_Integrat_555_Timer.txt:1
 ledurilor 1 date/Circuit_Integrat_555_Timer.txt:1
 liniar 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:3
 liniara 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2
-mare 1 date/Puntea_Wheatstone_Masurari.txt:1
+logic 1 date/Circuite_Logice_Digitale.txt:2
+logice 2 date/Circuite_Logice_Digitale.txt:2 date/Microcontrolere_si_Registre_ARM.txt:1
+magnetic 1 date/Sisteme_de_Automatizari_Relee.txt:1
+manipularea 1 date/Microcontrolere_si_Registre_ARM.txt:1
+mare 3 date/Amplificatoare_Operationale_Curs.txt:1 date/Puntea_Wheatstone_Masurari.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
 masura 1 date/Puntea_Wheatstone_Masurari.txt:1
 masurarea 1 date/Puntea_Wheatstone_Masurari.txt:2
 metoda 1 date/Puntea_Wheatstone_Masurari.txt:1
-mod 1 date/Circuit_Integrat_555_Timer.txt:2
+mici 1 date/Sisteme_de_Automatizari_Relee.txt:1
+microcontrolerele 1 date/Microcontrolere_si_Registre_ARM.txt:1
+mobil 1 date/Sisteme_de_Automatizari_Relee.txt:1
+mod 2 date/Circuit_Integrat_555_Timer.txt:2 date/Curent_Alternativ_Teorie.txt:1
+moderne 1 date/Microcontrolere_si_Registre_ARM.txt:1
 modulatie 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 monostabil 1 date/Circuit_Integrat_555_Timer.txt:1
 necunoscute 1 date/Puntea_Wheatstone_Masurari.txt:1
-operational 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+neinversoare 1 date/Amplificatoare_Operationale_Curs.txt:1
+nu 1 date/Circuite_Logice_Digitale.txt:1
+numite 2 date/Amplificatoare_Operationale_Curs.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+operatii 1 date/Microcontrolere_si_Registre_ARM.txt:1
+operational 2 date/Amplificatoare_Operationale_Curs.txt:2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 osciloscoape 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 panta 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+parametrii 1 date/Curent_Alternativ_Teorie.txt:1
+pasive 1 date/Filtre_Pasive_Frecventa.txt:1
 patru 1 date/Puntea_Wheatstone_Masurari.txt:1
-pentru 3 date/Circuit_Integrat_555_Timer.txt:4 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:4 date/Puntea_Wheatstone_Masurari.txt:2
+pentru 5 date/Circuit_Integrat_555_Timer.txt:4 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:4 date/Microcontrolere_si_Registre_ARM.txt:3 date/Puntea_Wheatstone_Masurari.txt:2 date/Sisteme_de_Automatizari_Relee.txt:1
 perfect 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+perioada 1 date/Curent_Alternativ_Teorie.txt:1
+permite 1 date/Filtre_Pasive_Frecventa.txt:1
+pinilor 1 date/Microcontrolere_si_Registre_ARM.txt:1
+poarta 1 date/Circuite_Logice_Digitale.txt:1
 poate 1 date/Circuit_Integrat_555_Timer.txt:2
+portile 1 date/Circuite_Logice_Digitale.txt:1
 precise 1 date/Circuit_Integrat_555_Timer.txt:1
 precizie 1 date/Puntea_Wheatstone_Masurari.txt:2
 presiune 1 date/Puntea_Wheatstone_Masurari.txt:1
-prin 1 date/Puntea_Wheatstone_Masurari.txt:3
+prezinta 1 date/Curent_Alternativ_Teorie.txt:1
+prin 2 date/Puntea_Wheatstone_Masurari.txt:3 date/Sisteme_de_Automatizari_Relee.txt:1
 printrun 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+proceseaza 1 date/Circuite_Logice_Digitale.txt:1
+programarea 1 date/Microcontrolere_si_Registre_ARM.txt:1
 punte 1 date/Puntea_Wheatstone_Masurari.txt:1
 puntea 1 date/Puntea_Wheatstone_Masurari.txt:4
 punti 1 date/Puntea_Wheatstone_Masurari.txt:1
+putere 1 date/Sisteme_de_Automatizari_Relee.txt:1
 rampa 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 rapid 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+rapida 1 date/Microcontrolere_si_Registre_ARM.txt:1
 raportul 1 date/Puntea_Wheatstone_Masurari.txt:1
+reactanta 1 date/Curent_Alternativ_Teorie.txt:2
 real 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+registrele 1 date/Microcontrolere_si_Registre_ARM.txt:1
+registrelor 1 date/Microcontrolere_si_Registre_ARM.txt:1
+regiuni 1 date/Tranzistoare_Bipulare_BJT.txt:1
+relee 1 date/Sisteme_de_Automatizari_Relee.txt:1
+releu 1 date/Sisteme_de_Automatizari_Relee.txt:1
 retea 1 date/Circuit_Integrat_555_Timer.txt:1
 rezistenta 1 date/Puntea_Wheatstone_Masurari.txt:1
-rezistente 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
+rezistente 3 date/Circuit_Integrat_555_Timer.txt:1 date/Filtre_Pasive_Frecventa.txt:1 date/Puntea_Wheatstone_Masurari.txt:2
 rezistentelor 1 date/Puntea_Wheatstone_Masurari.txt:2
 rezistiv 1 date/Circuit_Integrat_555_Timer.txt:1
 romb 1 date/Puntea_Wheatstone_Masurari.txt:1
-sau 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:3
+sau 4 date/Circuit_Integrat_555_Timer.txt:1 date/Circuite_Logice_Digitale.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:3 date/Tranzistoare_Bipulare_BJT.txt:1
 scade 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 scara 1 date/Circuit_Integrat_555_Timer.txt:1
 scheme 1 date/Circuit_Integrat_555_Timer.txt:1
+schimba 1 date/Curent_Alternativ_Teorie.txt:1
 se 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
-semnal 2 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2
-semnale 1 date/Circuit_Integrat_555_Timer.txt:1
-semnalului 1 date/Circuit_Integrat_555_Timer.txt:1
+semiconductor 1 date/Tranzistoare_Bipulare_BJT.txt:1
+semnal 4 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Tranzistoare_Bipulare_BJT.txt:1
+semnale 3 date/Circuit_Integrat_555_Timer.txt:1 date/Circuite_Logice_Digitale.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
+semnalelor 1 date/Filtre_Pasive_Frecventa.txt:1
+semnalului 2 date/Circuit_Integrat_555_Timer.txt:1 date/Filtre_Pasive_Frecventa.txt:1
 senzori 1 date/Puntea_Wheatstone_Masurari.txt:2
 single 1 date/Circuit_Integrat_555_Timer.txt:1
-sistemele 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+sinusoidal 1 date/Curent_Alternativ_Teorie.txt:1
+sistemele 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
+stocheaza 1 date/Microcontrolere_si_Registre_ARM.txt:1
 sub 1 date/Puntea_Wheatstone_Masurari.txt:1
-sunt 1 date/Circuit_Integrat_555_Timer.txt:1
+sunt 4 date/Circuit_Integrat_555_Timer.txt:1 date/Circuite_Logice_Digitale.txt:2 date/Curent_Alternativ_Teorie.txt:1 date/Filtre_Pasive_Frecventa.txt:1
 sursa 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
 sursei 1 date/Puntea_Wheatstone_Masurari.txt:1
 temperatura 1 date/Puntea_Wheatstone_Masurari.txt:1
+temporare 1 date/Microcontrolere_si_Registre_ARM.txt:1
 temporizari 1 date/Circuit_Integrat_555_Timer.txt:1
 temporizator 1 date/Circuit_Integrat_555_Timer.txt:1
-tensiune 3 date/Circuit_Integrat_555_Timer.txt:2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Puntea_Wheatstone_Masurari.txt:1
+tensiune 5 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:2 date/Circuite_Logice_Digitale.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2 date/Puntea_Wheatstone_Masurari.txt:1
 tensiunea 2 date/Circuit_Integrat_555_Timer.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
-tensiunii 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2
+tensiunii 2 date/Curent_Alternativ_Teorie.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:2
 timerul 1 date/Circuit_Integrat_555_Timer.txt:1
-timp 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+timp 2 date/Curent_Alternativ_Teorie.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+tip 2 date/Circuite_Logice_Digitale.txt:1 date/Tranzistoare_Bipulare_BJT.txt:1
+tranzistoarele 1 date/Tranzistoare_Bipulare_BJT.txt:1
 tranzistor 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
+tranzistorul 1 date/Tranzistoare_Bipulare_BJT.txt:1
+trecejos 1 date/Filtre_Pasive_Frecventa.txt:1
+trecerea 1 date/Filtre_Pasive_Frecventa.txt:1
+trei 1 date/Tranzistoare_Bipulare_BJT.txt:1
 umplere 1 date/Circuit_Integrat_555_Timer.txt:1
 unei 1 date/Puntea_Wheatstone_Masurari.txt:1
+unu 1 date/Circuite_Logice_Digitale.txt:2
 unui 2 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
-utilizat 3 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
+utilizat 4 date/Amplificatoare_Operationale_Curs.txt:1 date/Circuit_Integrat_555_Timer.txt:1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1 date/Puntea_Wheatstone_Masurari.txt:1
 utilizata 1 date/Puntea_Wheatstone_Masurari.txt:1
+utilizeaza 2 date/Microcontrolere_si_Registre_ARM.txt:1 date/Sisteme_de_Automatizari_Relee.txt:1
+valoarea 1 date/Curent_Alternativ_Teorie.txt:2
 varia 1 date/Circuit_Integrat_555_Timer.txt:1
 variabil 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 variabila 1 date/Generator_Tensiune_Liniar_Variabila_GTLV.txt:1
 wheatstone 1 date/Puntea_Wheatstone_Masurari.txt:2
-zero 1 date/Puntea_Wheatstone_Masurari.txt:1
+zero 2 date/Circuite_Logice_Digitale.txt:1 date/Puntea_Wheatstone_Masurari.txt:1

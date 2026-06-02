@@ -143,6 +143,47 @@ std::vector<DocumentTehnic> obtineDateInginerie() {
         "si circuite de modulatie in durata a impulsurilor pentru controlul tensiunii."
         });
 
+    biblioteca.push_back({
+        "Tranzistoare_Bipulare_BJT.txt",
+        "Fisa Tehnica - Tranzistor Bipolar BJT",
+        "tranzistorul bipolar de tip bjt este un dispozitiv semiconductor controlat in curent. are trei regiuni numite emitor, baza si colector. tranzistoarele bjt functioneaza ca amplificatoare de semnal sau ca intrerupatoare electronice in circuite de comutatie."
+        });
+
+    biblioteca.push_back({
+        "Filtre_Pasive_Frecventa.txt",
+        "Analiza de Frecventa - Filtre Pasive",
+        "filtrele pasive sunt circuite formate din rezistente, condensatoare si bobine. un filtru trece-jos permite trecerea semnalelor cu frecventa joasa si atenueaza frecventele inalte. analiza de frecventa determina atenuarea semnalului si defazajul introdus."
+        });
+
+    biblioteca.push_back({
+        "Curent_Alternativ_Teorie.txt",
+        "Bazele Electrotehnicii - Curent Alternativ",
+        "curentul alternativ isi schimba directia si valoarea in timp in mod sinusoidal. parametrii de baza sunt frecventa, perioada si valoarea efectiva a tensiunii. circuitele in curent alternativ prezinta impedanta, reactanta inductiva si reactanta capacitiva."
+        });
+
+    biblioteca.push_back({
+        "Sisteme_de_Automatizari_Relee.txt",
+        "Ghid de Automatizare - Relee si Contactoare",
+        "sistemele de automatizari utilizeaza relee electromagnetice pentru comutarea circuitelor de putere mare prin semnale de comanda mici. un releu contine o bobina care genereaza un camp magnetic si atrage un contact mobil."
+        });
+
+    biblioteca.push_back({
+        "Microcontrolere_si_Registre_ARM.txt",
+        "Arhitectura Calculatoarelor - Registre ARM",
+        "microcontrolerele moderne utilizeaza arhitectura arm pentru executia rapida a instructiunilor. registrele interne stocheaza date temporare pentru operatii logice si aritmetice. programarea embedded implica manipularea registrelor pentru controlul pinilor."
+        });
+
+    biblioteca.push_back({
+        "Amplificatoare_Operationale_Curs.txt",
+        "Curs Amplificatoare Operationale - Note de Laborator",
+        "amplificatorul operational este o componenta electronica cu un castig foarte mare in tensiune. un amplificator operational are doua intrari numite intrare inversoare si intrare neinversoare. este utilizat in circuite de comparare, integrare si amplificare de semnal."
+        });
+
+    biblioteca.push_back({
+        "Circuite_Logice_Digitale.txt",
+        "Manual Electronica Digitala - Porti Logice",
+        "circuitele logice digitale proceseaza semnale binare de tip unu si zero logic. portile logice fundamentale sunt si sau nu. o poarta si are iesirea in unu logic doar daca ambele intrari sunt conectate la tensiune inalta."
+        });
     return biblioteca;
 }
 
@@ -187,6 +228,35 @@ void afiseazaDashboard(const SearchEngine& engine, const std::string& fisierDB, 
     alerte.afiseazaStatusEvenimente();
     std::cout << CYAN << "└──────────────────────────────────────────────────────────┘\n" << RESET;
 }
+
+// Funcție pentru a extrage și afișa fraza în care apare cuvântul (Snippet)
+void afiseazaFrazaContextuala(const std::string& caleFisier, const std::string& cuvantCautat) {
+    std::ifstream f(caleFisier);
+    if (!f.is_open()) return;
+
+    std::string textComplet((std::istreambuf_iterator<char>(f)), std::istreambuf_iterator<char>());
+    f.close();
+
+    std::stringstream ss(textComplet);
+    std::string fraza;
+    std::string cautatLower = cuvantCautat;
+    std::transform(cautatLower.begin(), cautatLower.end(), cautatLower.begin(), ::tolower);
+
+    // Căutăm prin fraze (delimitate de punct)
+    while (std::getline(ss, fraza, '.')) {
+        std::string frazaLower = fraza;
+        std::transform(frazaLower.begin(), frazaLower.end(), frazaLower.begin(), ::tolower);
+
+        if (frazaLower.find(cautatLower) != std::string::npos) {
+            std::cout << BLUE << "    ↳ [Context găsit]: " << RESET << "\"" << fraza << ".\"" << std::endl;
+            break; // Oprim după ce am găsit prima potrivire ca să nu aglomerăm ecranul
+        }
+    }
+}
+
+
+
+
 
 int main() {
     SearchEngine engine;
@@ -260,6 +330,7 @@ int main() {
 
         if (optiune == "0") break;
 
+       
         if (optiune == "1") {
             std::string interogare, mod;
             std::cout << "\n🔍 Termeni: "; std::getline(std::cin, interogare);
@@ -275,10 +346,15 @@ int main() {
                     std::cout << CYAN << "╔══════════════════════════════════════════════╦══════════════════════╦══════════════════════╗\n" << RESET;
                     for (const auto& p : rezultate) {
                         std::string cale = p.first.substr(p.first.find("/") + 1);
+                        std::string caleFizica = p.first; // Salvăm calea completă a fișierului pentru a o putea deschide
                         std::replace(cale.begin(), cale.end(), '_', ' ');
+
                         std::cout << CYAN << "║" << RESET << " " << std::left << std::setw(44) << cale << CYAN << "║ " << RESET
                             << genereazaBaraGrafica(p.second, scorMaxim) << CYAN << "║" << RESET << "  "
                             << YELLOW << p.second << RESET << CYAN << "║\n" << RESET;
+
+                        // AICI ADĂUGĂM APELUL PENTRU CONTEXT
+                        afiseazaFrazaContextuala(caleFizica, interogare);
                     }
                     std::cout << CYAN << "╚══════════════════════════════════════════════╩══════════════════════╩══════════════════════╝\n" << RESET;
                 }
@@ -286,6 +362,8 @@ int main() {
             catch (...) {}
             std::cout << "\nApăsați ENTER..."; std::cin.get();
         }
+
+
         else if (optiune == "2") {
             std::cout << "\n🛠️  [SISTEM LIVE DETECTIE - SETARI OBSERVER]\n";
             std::cout << "1. Adaugă termen spre urmărire critică\n";

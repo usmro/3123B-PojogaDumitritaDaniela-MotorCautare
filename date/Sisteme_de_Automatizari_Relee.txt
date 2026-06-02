@@ -1,0 +1,1 @@
+sistemele de automatizari utilizeaza relee electromagnetice pentru comutarea circuitelor de putere mare prin semnale de comanda mici. un releu contine o bobina care genereaza un camp magnetic si atrage un contact mobil.

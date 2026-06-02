@@ -1,0 +1,1 @@
+tranzistorul bipolar de tip bjt este un dispozitiv semiconductor controlat in curent. are trei regiuni numite emitor, baza si colector. tranzistoarele bjt functioneaza ca amplificatoare de semnal sau ca intrerupatoare electronice in circuite de comutatie.

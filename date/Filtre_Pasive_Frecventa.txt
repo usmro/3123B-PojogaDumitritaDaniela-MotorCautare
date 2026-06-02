@@ -1,0 +1,1 @@
+filtrele pasive sunt circuite formate din rezistente, condensatoare si bobine. un filtru trece-jos permite trecerea semnalelor cu frecventa joasa si atenueaza frecventele inalte. analiza de frecventa determina atenuarea semnalului si defazajul introdus.

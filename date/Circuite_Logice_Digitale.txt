@@ -1,0 +1,1 @@
+circuitele logice digitale proceseaza semnale binare de tip unu si zero logic. portile logice fundamentale sunt si sau nu. o poarta si are iesirea in unu logic doar daca ambele intrari sunt conectate la tensiune inalta.

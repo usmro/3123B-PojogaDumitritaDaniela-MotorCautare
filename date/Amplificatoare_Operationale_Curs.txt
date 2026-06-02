@@ -1,0 +1,1 @@
+amplificatorul operational este o componenta electronica cu un castig foarte mare in tensiune. un amplificator operational are doua intrari numite intrare inversoare si intrare neinversoare. este utilizat in circuite de comparare, integrare si amplificare de semnal.

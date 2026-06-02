@@ -1,0 +1,1 @@
+curentul alternativ isi schimba directia si valoarea in timp in mod sinusoidal. parametrii de baza sunt frecventa, perioada si valoarea efectiva a tensiunii. circuitele in curent alternativ prezinta impedanta, reactanta inductiva si reactanta capacitiva.

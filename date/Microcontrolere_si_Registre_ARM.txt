@@ -1,0 +1,1 @@
+microcontrolerele moderne utilizeaza arhitectura arm pentru executia rapida a instructiunilor. registrele interne stocheaza date temporare pentru operatii logice si aritmetice. programarea embedded implica manipularea registrelor pentru controlul pinilor.

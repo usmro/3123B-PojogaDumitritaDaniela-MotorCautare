@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniela\\Documents\\POO- proiect final\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\SearchEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\SearchEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\Index.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Index.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniela\\Documents\\POO- proiect final\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\Exceptii.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -86,12 +86,11 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-27T11:23:54.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T11:23:54.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "documentatie.md",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\docs\\documentatie.md",
               "RelativeDocumentMoniker": "docs\\documentatie.md",
@@ -99,12 +98,11 @@
               "RelativeToolTip": "docs\\documentatie.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-19T14:21:51.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T14:21:51.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -112,12 +110,11 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-19T14:12:12.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T14:12:12.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "test_main.cpp",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\tests\\test_main.cpp",
               "RelativeDocumentMoniker": "tests\\test_main.cpp",
@@ -125,12 +122,11 @@
               "RelativeToolTip": "tests\\test_main.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-18T16:53:05.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:53:05.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SearchEngine.cpp",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\SearchEngine.cpp",
               "RelativeDocumentMoniker": "src\\SearchEngine.cpp",
@@ -138,8 +134,7 @@
               "RelativeToolTip": "src\\SearchEngine.cpp",
               "ViewState": "AgIAAJcAAAAAAAAAAAAcwKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-18T16:15:32.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:15:32.473Z"
             },
             {
               "$type": "Document",
@@ -149,26 +144,27 @@
               "RelativeDocumentMoniker": "src\\main.cpp",
               "ToolTip": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\main.cpp",
               "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAMIAAAAAAAAAAADwv8cAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAUwGsBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-18T15:27:05.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Makefile",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\Makefile",
               "RelativeDocumentMoniker": "Makefile",
               "ToolTip": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\Makefile",
               "RelativeToolTip": "Makefile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-18T15:31:47.723Z"
+              "WhenOpened": "2026-05-18T15:31:47.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.h",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\Index.h",
               "RelativeDocumentMoniker": "src\\Index.h",
@@ -176,12 +172,11 @@
               "RelativeToolTip": "src\\Index.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-18T15:26:01.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:26:01.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cpp",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\Index.cpp",
               "RelativeDocumentMoniker": "src\\Index.cpp",
@@ -193,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SearchEngine.h",
               "DocumentMoniker": "C:\\Users\\Daniela\\Documents\\POO- proiect final\\src\\SearchEngine.h",
               "RelativeDocumentMoniker": "src\\SearchEngine.h",
@@ -201,8 +196,7 @@
               "RelativeToolTip": "src\\SearchEngine.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-18T16:14:54.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:14:54.094Z"
             },
             {
               "$type": "Document",
